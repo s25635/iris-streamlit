@@ -1,7 +1,6 @@
 import sys
 from pathlib import Path
 
-# Добавляем путь к папке app/
 sys.path.append(str(Path(__file__).resolve().parents[1] / "app"))
 
 from predict import predict
